@@ -1,21 +1,21 @@
 *&---------------------------------------------------------------------*
-*& Report ZSTAJ_TUNAHAN_CALISMA_7
+*& Report ZSTAJ_TUNAHAN_CALISMA_8
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT zstaj_tunahan_calisma_7.
+REPORT zstaj_tunahan_calisma_8.
 
 
-INCLUDE ZSTAJ_TUNAHAN_CALISMA_7_top.
-INCLUDE ZSTAJ_TUNAHAN_CALISMA_7_f01.
-INCLUDE ZSTAJ_TUNAHAN_CALISMA_7_pbo.
-INCLUDE ZSTAJ_TUNAHAN_CALISMA_7_pai.
+INCLUDE ZSTAJ_TUNAHAN_CALISMA_8_top.
+INCLUDE ZSTAJ_TUNAHAN_CALISMA_8_f01.
+INCLUDE ZSTAJ_TUNAHAN_CALISMA_8_pbo.
+INCLUDE ZSTAJ_TUNAHAN_CALISMA_8_pai.
 
 START-OF-SELECTION.
   CALL SCREEN 0100.
 
 *&---------------------------------------------------------------------*
-*& Include          ZSTAJ_TUNAHAN_CALISMA_7_TOP
+*& Include          ZSTAJ_TUNAHAN_CALISMA_8_TOP
 *&---------------------------------------------------------------------*
 
 
@@ -25,7 +25,7 @@ DATA : gv_number1 TYPE p DECIMALS 2,
        gv_islem type char1.
 
 *&---------------------------------------------------------------------*
-*& Include          ZSTAJ_TUNAHAN_CALISMA_7_F01
+*& Include          ZSTAJ_TUNAHAN_CALISMA_8_F01
 *&---------------------------------------------------------------------*
 *&---------------------------------------------------------------------*
 *& Form hesapla
@@ -63,7 +63,7 @@ FORM hesapla USING p_islem TYPE char1.
 ENDFORM.
 
 *&---------------------------------------------------------------------*
-*& Include          ZSTAJ_TUNAHAN_CALISMA_7_PBO
+*& Include          ZSTAJ_TUNAHAN_CALISMA_8_PBO
 *&---------------------------------------------------------------------*
 *&---------------------------------------------------------------------*
 *& Module STATUS_0100 OUTPUT
@@ -79,7 +79,7 @@ MODULE status_0100 OUTPUT.
 ENDMODULE.
 
 *&---------------------------------------------------------------------*
-*& Include          ZSTAJ_TUNAHAN_CALISMA_7_PAI
+*& Include          ZSTAJ_TUNAHAN_CALISMA_8_PAI
 *&---------------------------------------------------------------------*
 *&---------------------------------------------------------------------*
 *&      Module  USER_COMMAND_0100  INPUT
